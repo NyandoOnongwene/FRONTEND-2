@@ -1,0 +1,49 @@
+#sun{
+    position: absolute;
+    top: calc(50% - 20px);
+    left: calc(50% - 20px);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #fff;
+    box-shadow:
+      0 0 60px 30px rgb(207, 221, 10),
+      0 0 100px 60px #f0f,
+      0 0 140px 90px #0ff;
+      animation: spin-right 5s linear infinite; 
+      
+  }
+   
+
+@keyframes spin-right {
+    100% {transform: rotate(360deg);}
+    }
+
+#earth{
+    background-color: blue;
+    width: 50px;
+    height:50px;
+    border-radius: 50%;
+    margin-top: -100px;
+    margin-left: -100px;
+}
+
+#mars{
+    background-color: rgb(255, 0, 0);
+    width: 50px;
+    height:50px;
+    border-radius: 50%;
+    margin-top: -120px;
+    margin-left: -120px;
+}
+
+
+
+header{
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("milky_way.jpg");
+    height: 100vh;
+    -webkit-background-size:cover;
+    background-size:cover;
+    background-position: center;
+    position:relative;
+}
