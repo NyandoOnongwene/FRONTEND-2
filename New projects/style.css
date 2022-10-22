@@ -16,3 +16,19 @@ h2{
     margin-bottom: 20px;
 }
 
+button{
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    width: 200px;
+}
+#increment-btn{
+    background: darkred;
+}
+#save-btn{
+    background: darkgreen;
+}

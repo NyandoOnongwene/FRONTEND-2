@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twitter Clone</title>
+    
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" 
+  integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" 
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--sidebar starts-->
+    <div class="sidebar">
+        <i class="fab fa-twitter"></i>
+        <div class="sidebarOption active">
+            <span class="material-icons">
+                home
+                </span>
+                <h2>Home</h2>
+        </div>
+    
+
+    
+ <div class="sidebarOption">
+            <span class="material-icons">
+                search
+                </span>
+                <h2>Explore</h2>
+        
+    </div>
+       
+ 
+    <div class="sidebarOption">
+        <span class="material-icons">
+           notifications_none
+            </span>
+            <h2>Notification</h2>
+    </div>
+
+    <div class="sidebarOption">
+        <span class="material-icons">
+          mail_outline
+            </span>
+            <h2>Messages</h2>
+    </div>
+
+    <div class="sidebarOption">
+        <span class="material-icons">
+          bookmark_border
+            </span>
+            <h2>Bookmark</h2>
+    </div>
+
+    <div class="sidebarOption">
+        <span class="material-icons">
+           list_alt
+            </span>
+            <h2>Lists</h2>
+    </div>
+
+    <div class="sidebarOption">
+        <span class="material-icons">
+           perm_identity
+            </span>
+            <h2>Profile</h2>
+    </div>
+
+    <div class="sidebarOption">
+        <span class="material-icons">
+           more_horiz
+            </span>
+            <h2>More</h2>
+    </div>
+   <button class="sidebar_tweet">Tweet</button>
+   </div>
+    <!--sidebar ends-->
+
+
+    <!--Feed starts-->
+<div class="feed">
+    <div class="feed__header">
+        <h2>Home</h2>
+    </div>
+
+    <!--tweetbox starts-->
+    <div class="tweetBox">
+        <form>
+            <div class="tweetbox__input">
+                <img src="./images/ono.jpg" class="Ono" alt="Ono">
+                <input type="text" placeholder="What's happening"/>
+
+            </div>
+            <button class="tweetBox__tweetButton">Tweet</button>
+        </form>
+    </div>
+    <!--tweetbox end-->
+
+
+    <!--Post starts-->
+     <div class="post">
+        <div class="post_avatar">
+            <img src="./images/ono.jpg" class="Ono" alt="Ono">
+        </div>
+
+        <div class="post_body">
+            <div class="post_header">
+                <div class="post_headerText">
+                    <h3>
+                        Nyando Onongwene
+                        <span class="post_headerSpecial">
+                            <span class="material-icons post__badge">verified</span>
+                            @NyandoOnongwene
+                        </span>
+                    </h3>
+                </div>
+                <div class="post_headerDescription">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+            <img src="./images/friends.jpg" alt="Ono &Friends"/>
+
+            <div class="post_footer">
+                <span class="material-icons">repeat</span>
+                <span class="material-icons">favorite </span>
+              <span class="material-icons">publish</span> 
+
+            </div>
+        
+    
+        </div>
+     </div>
+
+    <!--Post ends-->
+</div>
+
+    <!--Feed end-->
+</body>
+</html>
