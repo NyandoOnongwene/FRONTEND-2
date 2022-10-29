@@ -1,0 +1,33 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="home-score">
+                <h3>HOME</h3>
+                <div class="home-score-background">
+                    <h2 id="score-home-el">0</h2>
+                    </div>
+               
+                    <button class="btn" id="freethrow-home-el" onclick="freethrowHome()">+1</button>
+                    <button class = "btn" id="midrange-home-el" onclick="midrangeHome()">+2</button>
+                    <button class="btn" id="longthree-home-el" onclick="longthreeHome()">+3</button>
+            </div>
+            <div>
+                <div class="guest-score">
+                <h3>GUEST</h3>
+                <div class="guest-score-background">
+                <h2 id="score-guest-el">0</h2>
+                </div>
+               
+                <button  class="btn" id="freethrow-guest-el" onclick="freethrowGuest()">+1</button>
+                <button class="btn" id="midrange-guest-el" onclick="midrangeGuest()">+2</button>
+                <button class="btn" id="longthree-guest-el" onclick="longthreeGuest()">+3</button>
+              
+            </div>
+        </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
