@@ -183,3 +183,60 @@ body{
     color: var(--twitter-color);
     margin-right: 5px;
 }
+.post_headerSpecial{
+    font-weight: 600;
+    font-size: 12px;
+    color: gray;
+
+}
+.post_headerText{
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+.post_headerDescription{
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+.post_body{
+    flex: 1;
+    padding: 10px;
+}
+.post_avatar{
+    padding: 20px;
+}
+/* widgets */
+.widgets{
+    flex: 0.3;
+
+}
+.widgets_input{
+    display: flex;
+    align-items: center;
+    background-color: var(--twitter-background);
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+
+}
+.widgets_input input{
+    border: none;
+    background-color: var(--twitter-background);
+    outline: none;
+}
+.widgets_searchIcon{
+    color: gray;
+}
+
+.widgets_widgetContainer{
+    margin-top: 15px;
+    margin-left: 20px;
+    padding: 20px;
+    background-color: #f5f8fa;
+    border-radius: 20px;
+
+}
+.widgets_widgetContainer h2{
+    font-size: 18px;
+    font-weight: 800;
+}

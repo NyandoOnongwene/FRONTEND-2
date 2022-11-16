@@ -23,18 +23,14 @@ h3{
     font-size: 40px;
     }
     
-h2{
-    
-}
-    
+
 @font-face {
     font-family: 'Cursed Timer ULiL';
     font-style: normal;
     font-weight: 400;
-    src: local('Cursed Timer ULiL'), url('https://fonts.cdnfonts.com/s/40642/CursedTimerUlil-Aznm.woff') format('woff');
+    src: local('Cursed Timer ULiL'), 
+    url('https://fonts.cdnfonts.com/s/40642/CursedTimerUlil-Aznm.woff') format('woff');
 }
-
-
 
 
 .guest-score-background, .home-score-background {
